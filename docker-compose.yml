@@ -1,0 +1,5 @@
+memcached:
+  image: sylvainlasnier/memcached
+  ports:
+    - "11211:11211"
+  command: sudo -u memcache /usr/bin/memcached -vv
